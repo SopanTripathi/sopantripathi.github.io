@@ -1,0 +1,11 @@
+h1.vivek {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #e24e42;
+  text-align: right;
+  padding-top: 180px;
+  padding-right:80px;
+  margin: 0 !important; 
+  /*!important property will always be applied no matter where that rule appears in the CSS document.*/
+}

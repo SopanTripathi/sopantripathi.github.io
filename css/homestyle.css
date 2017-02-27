@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+.home {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #e24e42;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 !important; 
+  /*!important property will always be applied no matter where that rule appears in the CSS document.*/
+}
+
+nav {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border: none !important;
+  font-family: 'Quicksand', sans-serif;
+  color: #e24e42;
+  text-align: center !important;
+}
+
+nav a {
+  text-decoration: none !important;
+  color: inherit !important;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+
+nav a .current {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+
+section {
+  /*Specify how much height of section you want*/
+  height: 100vh;
+  /*Used for IMAGE ONLY, Image will "covers" the entire width or height of the container*/
+  background-size: cover;
+  /*relevant rendering engines (-webkit for Chrome, Safari; -moz for Firefox, -o for Opera, -ms for Internet Explorer)*/
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  /*will placed relative to its normal position, but amount of relativity is not given*/
+  position: relative;
+  margin-top: 0 !important;
+}
+
+#home {
+  background: url("") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1.hometext{
+	 position:relative;
+	 right:-800px;
+}
+
+a {
+  target: "_blank";
+}

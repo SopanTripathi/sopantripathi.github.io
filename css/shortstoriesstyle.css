@@ -1,0 +1,15 @@
+#shortstory .photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+#shortstory .photos img {
+  display: inline-block;
+  padding: 4px;
+}
+
+#shortstory .photos img:hover {
+  opacity: 0.7;
+}

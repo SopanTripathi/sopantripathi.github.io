@@ -1,0 +1,52 @@
+#wallpaper {
+  background-color: #d5d5d5;
+  background-attachment: fixed;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+
+#wallpaper .para {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #1e392a;
+  font-size: 70px;
+  letter-spacing: .25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+}
+
+
+/*Since i have foot class and foot items, so their style is */
+/*Importnt #wallpaper is <div> from welcome.php and .foot is <div> id from wallpaper.inc */
+/*See how we merged the 2 styles*/
+
+#wallpaper .foot {
+  position: relative;
+  top: 90%;
+}
+
+#wallpaper .foot-item {
+  text-align: center;
+  font-size: 20px;
+}
+
+#wallpaper .foot-item span {
+  text-align: center;
+  position:relative;
+  color: grey;
+}
+
+#wallpaper .foot-item a {
+  text-decoration: none;
+  color: grey;
+}
+
+#wallpaper .foot-item a:hover {
+  text-decoration: none;
+  color: inherit;
+}
